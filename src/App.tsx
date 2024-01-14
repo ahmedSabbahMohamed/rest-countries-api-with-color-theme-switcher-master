@@ -1,9 +1,14 @@
+import { useState } from "react";
+import Header from "./components/Header";
+
 function App() {
 
+  const [darkMode, setDarkMode] = useState(false)
+
   return (
-    <>
-      <h1 className="text-3xl font-myFont font-bold underline">Hello world!</h1>
-    </>
+    <div className={darkMode ? "dark": ""}>
+      <Header handleClick={() => setDarkMode(!darkMode)}/>
+    </div>
   );
 }
 
