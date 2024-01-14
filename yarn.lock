@@ -1309,11 +1309,6 @@ lru-cache@^6.0.0:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.1.0.tgz#2098d41c2dc56500e6c88584aa656c84de7d0484"
   integrity sha512-/1clY/ui8CzjKFyjdvwPWJUYKiFVXG2I2cY0ssG7h4+hwk+XOIX7ZSG9Q7TW8TW3Kp3BUSqgFWBLgL4PJ+Blag==
 
-lucide@^0.309.0:
-  version "0.309.0"
-  resolved "https://registry.yarnpkg.com/lucide/-/lucide-0.309.0.tgz#900c9b4a0b12759d44e9de8997e496f87a48b4d2"
-  integrity sha512-e0G5Ld1f+wJeE/5DQII6KcWM+2fPcJoYI2DKPPGkeVoD6NbZSpA9vu7nA4F5JeBJMh+AMAWEoSJ5SQUDlh549Q==
-
 match-sorter@^6.3.1:
   version "6.3.1"
   resolved "https://registry.yarnpkg.com/match-sorter/-/match-sorter-6.3.1.tgz#98cc37fda756093424ddf3cbc62bfe9c75b92bda"
