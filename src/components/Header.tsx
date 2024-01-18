@@ -6,7 +6,7 @@ interface HeaderProps {
 
 function Header({ handleClick }: HeaderProps) {
   return (
-    <header className="bg-white dark:bg-d-vdBlue p-5 shadow-md">
+    <header className="bg-white dark:bg-d-dBlue p-5 shadow-xl">
       <nav className="container mx-auto">
         <div className="flex justify-between items-center text-l-vdBlue dark:text-white">
           <h1 className="text-xl md:text-2xl font-semibold">
