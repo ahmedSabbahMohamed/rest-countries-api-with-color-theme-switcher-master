@@ -1,10 +1,6 @@
-import React from "react";
+import { FilterByRagionProps } from "../utils/interfaces";
 
-interface Props {
-  handleSelect: (event: React.ChangeEvent<HTMLSelectElement>) => void;
-};
-
-function Filter( {handleSelect}: Props) {
+function Filter( {handleSelect}: FilterByRagionProps) {
 
   const allRegions = ["Filter by Region", "Africa", "Americas", "Asia", "Europe", "Oceania"]
 

@@ -3,14 +3,7 @@ import Input from "./Input";
 import Filter from "./FilterByRegion";
 import CountryCard from "./CountryCard";
 import data from "../../data.json";
-
-interface Country {
-  name: string;
-  flags: { png: string };
-  population: number;
-  region: string;
-  capital?: string;
-}
+import { Country } from "../utils/interfaces";
 
 function AllCountries() {
 

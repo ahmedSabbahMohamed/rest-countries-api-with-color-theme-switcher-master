@@ -1,11 +1,7 @@
 import { IoIosSearch } from "react-icons/io";
+import { InputProps } from "../utils/interfaces";
 
-interface Props {
-  value: string;
-  handleChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
-}
-
-function Input({value, handleChange}: Props) {
+function Input({value, handleChange}: InputProps) {
   return (
     <div className="relative p-5 md:p-0 w-full md:w-[420px]">
       <label className="absolute left-9 md:left-3 top-1/2 -translate-y-1/2 text-gray-600" htmlFor="country">
