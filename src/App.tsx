@@ -1,14 +1,12 @@
-import { useState } from "react";
 import Header from "./components/Header";
 import Main from "./components/Main";
 
 function App() {
-
-  const [darkMode, setDarkMode] = useState(false)
+  const theme: string = localStorage.getItem("theme") ?? "";
 
   return (
-    <div className={darkMode ? "dark": ""}>
-      <Header handleClick={() => setDarkMode(!darkMode)}/>
+    <div className={theme} id="app">
+      <Header/>
       <Main />
     </div>
   );
